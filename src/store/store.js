@@ -6,7 +6,6 @@ import exampleVideoData from '../data/exampleVideoData.js';
 // TODO:  Create your redux store, apply thunk as a middleware, and export it!
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-//const store = createStore(reducer, /* preloadedState, */ composeEnhancers(
 
 const store = createStore(
   rootReducer,
